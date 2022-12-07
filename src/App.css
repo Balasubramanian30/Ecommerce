@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background:#ef4f5f !important;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+/** additional css ***/
+
+
+.navbar{background-color: blue !important;}
+
+.nav-link{color:white !important;}
+
+.navbar-brand{color:white !important;}
+
+
+h1{font-size: 18px !important;text-transform: capitalize !important;}
+
+.img-fluid{height:300px !important;}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#footer {
+  background: #ef4f5f;
+  padding: 1em;
+  color: white;
+  font-size: larger;
+}
+.App-link {
+  color: #61dafb;
+}
+.btn.btn-primary {
+  background: #ef4f5f;
+  border: none;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.-danger {
+  border-radius: 10px;
+  color: red;
+}
+.form-control.mb-5 {
+  margin-top: 1em;
+}
+.form-control {
+  margin: 1em;
+}
+.btn.btn-success {
+  margin-bottom: 1em;
+}
+.row.mt-5.justify-content-center {
+  width: 100%;
 }
